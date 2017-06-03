@@ -1,0 +1,55 @@
+02-First test
+
+ 1.Type 'python' in command line, we can open the python interaction console
+
+    symbol >>>
+
+    	test:
+
+		    >>> 100+100
+			200
+			>>> 6000*2
+			12000
+			>>> print(5)
+			5
+			>>> prin("hello")
+			Traceback (most recent call last):
+			  File "<stdin>", line 1, in <module>
+			NameError: name 'prin' is not defined
+			>>> print("hello")
+			hello
+			>>> print('hello')
+			hello
+			>>> print('5'+"1000")
+			51000
+			>>> exit()
+
+	Under this circumstance, we can't save anything.
+
+2. create a new file, text "print("hello world")", save as .py
+	go to the direction in console and run it 
+
+	1) use 'python' as the key word to run
+
+	SuzydeMacBook-Pro:python suzy$ python hello.py
+	hello world
+
+	2) add '#!/usr/bin/env python3' on top of the file
+
+	run   chmod a+x 02-hello.py
+	then we can run hello.py directly without keyword python
+
+	test:
+
+ 		SuzydeMacBook-Pro:python suzy$ chmod a+x hello.py
+		SuzydeMacBook-Pro:python suzy$ ./hello.py
+		hello world
+		SuzydeMacBook-Pro:python suzy$ ./hello.py
+		hello world!!!
+		
+
+
+
+
+
+

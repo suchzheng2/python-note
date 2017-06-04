@@ -1,0 +1,7 @@
+03-python fundamental
+
+1. data type and variable
+
+	1) datatype: integer, float, string
+	2) String: surround by '' or "".
+	   if the String contains ' or ", use /' and /"
